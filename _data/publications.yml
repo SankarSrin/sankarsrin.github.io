@@ -1,0 +1,192 @@
+# All publications. Set `selected: true` to feature one on the home page.
+# Your name is bolded automatically (see site.author_name_variants in _config.yml).
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Visually Encrypted Watermarking for Ordered-Dithered Clustered-Dot Halftones"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology, 33(8), 4375–4387, 2023"
+  selected: true
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Prayuda, A. W. H., Prasetyo, H., Sankarasrinivasan, S."
+  title: "Deep Learning-Based Image Retrieval with Unsupervised Double Bit Hashing"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology, 33(11), 7050–7065, 2023"
+  selected: true
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Generalized Halftone Classification Approach Using Stochastic Analysis"
+  venue: "Journal of Ambient Intelligence and Humanized Computing, 14(11), 14907–14919, 2023"
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S., Liu, Y.-F., Lin, S.-C."
+  title: "Novel Stacking and Boundary Enhanced Hybrid Halftone Screen for Laser Printers"
+  venue: "IEEE Transactions on Consumer Electronics, 70(1), 327–337, 2023"
+  selected: true
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Hsiao, Y.-T., Hsu, W.-W., Sankarasrinivasan, S., et al."
+  title: "Interpretability of Fundus Analysis with Deep Learning-Based Approaches for Glaucoma Assessment"
+  venue: "Electronics, 12(9), 2013, 2023"
+- type: journal
+  year: 2022
+  authors: "Guo, J.-M., Yang, J.-S., Sankarasrinivasan, S., Wu, H.-W."
+  title: "A Light-Weight CNN for Object Detection with Sparse Model and Knowledge Distillation"
+  venue: "Electronics, 11(4), 575, 2022"
+  selected: true
+- type: journal
+  year: 2022
+  authors: "Guo, J.-M., Sankarasrinivasan, S., Chen, W.-H."
+  title: "Few-Shot Classification with Dual-Model Deep Feature Extraction and Similarity Measurement"
+  venue: "Electronics, 11(21), 3502, 2022"
+- type: journal
+  year: 2022
+  authors: "Chang, R.-H., Guo, J.-M., & Seshathiri, S."
+  title: "Saliency Guidance and Expansion Suppression on PuzzleCAM for Weakly Supervised Semantic Segmentation"
+  venue: "Electronics, vol. 11, no. 24, Article 4068, 2022"
+- type: journal
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S., Liu, J.-H., Hsu, W.-W."
+  title: "Two-Stage Cascaded CNN Model for 3D Mitochondria EM Segmentation"
+  venue: "Electronics, 12(4), 928, 2023"
+- type: journal
+  year: 2019
+  authors: "Guo, J.-M., & Seshathiri, S."
+  title: "Watermarking in Dot-Diffusion Halftones Using Adaptive Class-Matrix and Error Diffusion"
+  venue: "ECTI Transactions on Computer and Information Technology (ECTI-CIT), vol. 13, no. 1, pp. 1–8, 2019"
+- type: journal
+  year: 2018
+  authors: "Pragalath, H., Sankarasrinivasan, S., Rathod, H., Balasubramanian, E., Gupta, R."
+  title: "Deterioration Assessment of Infrastructure Using Fuzzy Logic and Image Processing Algorithm"
+  venue: "Journal of Performance of Constructed Facilities, 32(2), 2018"
+- type: journal
+  year: 2015
+  authors: "Seshadri, S., Balasubramanian, E., Yang, L.-J., Chandrasekhar, U., Packiriswamy, S."
+  title: "A Novel Vision-Based Protocol for Controlling Flapping Wing Vehicles in Indoor Surveillance Mission"
+  venue: "Journal of Applied Science and Engineering, 18(4), 331–338, 2015"
+- type: conference
+  year: 2015
+  authors: "Sankarasrinivasan, S., Balasubramanian, E., Karthik, K., Chandrasekar, U., Gupta, R."
+  title: "Health Monitoring of Civil Structures with Integrated UAV and Image Processing System"
+  venue: "Eleventh International Conference on Image and Signal Processing, Procedia Computer Science, Elsevier, 2015"
+- type: conference
+  year: 2015
+  authors: "Sankarasrinivasan, S., Balasubramanian, E., Hsiao, F.-Y., Yang, L.-J."
+  title: "Robust Target Tracking Algorithm for MAV Navigation System"
+  venue: "IEEE ICIC, 2015"
+- type: conference
+  year: 2015
+  authors: "Sankarasrinivasan, S., Esakki, B."
+  title: "Vision Based Algorithms for MAV Navigation"
+  venue: "IEEE ICECCT, 2015"
+- type: conference
+  year: 2015
+  authors: "Sankarasrinivasan, S., Balasubramanian, E., Yang, L.-J., Hsiao, F.-Y."
+  title: "Autonomous Control of Flapping Wing Vehicles Using GUI"
+  venue: "IEEE ICACCI, 2015"
+- type: conference
+  year: 2017
+  authors: "Ismael, B., Sankarasrinivasan, S., Balasubramanian, E."
+  title: "Comparative Analysis on Image Translation and Rotation Algorithms for MAVs"
+  venue: "ICMRE, 2017"
+- type: conference
+  year: 2017
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Enhanced Block Truncation Coding Image Using Digital Multitone Screen"
+  venue: "APSIPA ASC, 2017"
+- type: conference
+  year: 2017
+  authors: "Sankarasrinivasan, S., Esakki, B., & Yang, L.-J."
+  title: "Image Processing Framework towards Motion Estimation & Control of Multiple FWMAVs"
+  venue: "Proceedings of ICIUS 2017, August 2017"
+- type: conference
+  year: 2018
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Error Diffused Halftone Classification Using Stochastic Geometrical Features"
+  venue: "IEEE ICCE-TW, 2018"
+- type: conference
+  year: 2018
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Digital Halftone Database (DHD): A Comprehensive Analysis on Halftone Types"
+  venue: "APSIPA ASC, 2018"
+- type: conference
+  year: 2018
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "A Rapid Watermarking Strategy for Multi-Tone Images"
+  venue: "APSIPA ASC, 2018"
+- type: conference
+  year: 2018
+  authors: "Panchal, N., Feng, A.-L., Jen, C.-Y., Sankarasrinivasan, S., et al."
+  title: "Visualization of a Flapping Wing Motion Using Soap-Film Membrane"
+  venue: "ICIUS, 2018"
+- type: conference
+  year: 2019
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "H-BTC Database: A Review on Halftone BTC Images"
+  venue: "IEEE ISPACS, 2019"
+- type: conference
+  year: 2019
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Reconstruction of Multitone BTC Images Using cGANs"
+  venue: "APSIPA ASC, 2019"
+- type: conference
+  year: 2019
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "BN-IQA: Image Quality Assessment Based on Blue Noise Dithering"
+  venue: "IEEE ICCE-TW, 2019"
+- type: conference
+  year: 2020
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "H-GAN: Deep Learning Model for Halftoning and Reconstruction"
+  venue: "IEEE ICCE, 2020"
+- type: conference
+  year: 2021
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Enhanced Image Quality Assessment Based on Halftoning Metrics"
+  venue: "IEEE ICCE-TW, 2021"
+- type: conference
+  year: 2021
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Digital Halftone Classification Using Simplified CNN"
+  venue: "APSIPA ASC, 2021"
+- type: conference
+  year: 2021
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Digital Multitone Image Reconstruction Using GANs"
+  venue: "APSIPA ASC, 2021"
+- type: conference
+  year: 2022
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Error Diffusion Halftone Classification Using Contrastive Learning"
+  venue: "IEEE ICCE-TW, 2022"
+- type: conference
+  year: 2022
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "A Unified Compression and Watermarking Scheme for MT-BTC Images"
+  venue: "APSIPA ASC, 2022"
+- type: conference
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S."
+  title: "Self-Supervised Learning for Scanned Halftone Classification"
+  venue: "IEEE ICIP, 2023"
+  selected: true
+- type: conference
+  year: 2023
+  authors: "Guo, J.-M., Sankarasrinivasan, S., Hung, L. V., Liu, W."
+  title: "Deep Residual and Classified Neural Networks for Inverse Halftoning"
+  venue: "APSIPA ASC, 2023"
+- type: patent
+  year: 2023
+  authors: "Balasubramanian, E., Sankarasrinivasan, S."
+  title: "Vision-Based Control of Multiple Flapping-Wing Micro Aerial Vehicles and Formation"
+  venue: "Patent No. 417229, Intellectual Property India, 2023"
+- type: patent
+  year: 2023
+  authors: "Balasubramanian, E., Sankarasrinivasan, S., Karthik, K."
+  title: "Adaptive Traffic Control and Mapping Using Unmanned Aerial Vehicles"
+  venue: "Patent No. 405612, Intellectual Property India, 2023"
+- type: thesis
+  year: 2014
+  authors: "Sankarasrinivasan, S., Gupta, S."
+  title: "Compressed Measurement of Structural Similarity Index"
+  venue: "Master’s Thesis, National Institute of Technology Rourkela, 2014"

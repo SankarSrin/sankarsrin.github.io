@@ -1,0 +1,41 @@
+# ── Site identity ─────────────────────────────────────────────
+title: Sankarasrinivasan Seshathiri
+short_name: Sankar
+headline: Computer Vision & Machine Learning Engineer
+description: >-
+  Computer vision researcher and engineer (PhD) with industry and postdoctoral
+  experience in 6D pose estimation, object detection, segmentation and
+  generative imaging. 30+ peer-reviewed publications and 2 granted patents.
+url: "https://sankarsrin.github.io"
+baseurl: ""
+
+# ── Job search ────────────────────────────────────────────────
+# Shown as a badge in the header. Leave empty to hide it.
+open_to_work: "Open to Computer Vision / ML roles"
+# Drop your CV PDF at this path to show the "Download CV" button. Leave empty to hide.
+cv_file: ""          # e.g. /assets/Sankarasrinivasan_Seshathiri_CV.pdf
+
+# ── Contact & profiles ────────────────────────────────────────
+email: sankarsrin@gmail.com
+github: SankarSrin
+linkedin: sankarasrinivasan-seshathiri-43488743
+scholar: CTWLEcEAAAAJ
+
+# Name spellings used across your papers; each is bolded in author lists.
+author_name_variants:
+  - Sankarasrinivasan, S.
+  - Seshathiri, S.
+
+# ── Build ─────────────────────────────────────────────────────
+permalink: /:title/
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

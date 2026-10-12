@@ -1,0 +1,18 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Journal articles, conference papers and patents by Sankarasrinivasan Seshathiri.
+---
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+<section class="wrap section">
+  <h1 class="page-title">Publications</h1>
+  <p class="lede">Full list below. Citation counts and PDFs are on <a href="https://scholar.google.com/citations?user={{ site.scholar }}">Google Scholar</a>.</p>
+  {% assign groups = "journal:Journal articles,conference:Conference papers,patent:Patents,thesis:Thesis" | split: "," %}
+  {% for g in groups %}
+    {% assign kv = g | split: ":" %}
+    {% assign items = pubs | where: "type", kv[0] %}
+    <h2 class="pub-group">{{ kv[1] }} <span>{{ items.size }}</span></h2>
+    <ol class="pubs">{% for p in items %}{% include pub.html p=p %}{% endfor %}</ol>
+  {% endfor %}
+</section>

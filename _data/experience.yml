@@ -1,0 +1,43 @@
+- role: Postdoctoral Researcher, Project Acrobath
+  org: LIRIS (Imagine team), École Centrale de Lyon
+  location: Lyon, France
+  dates: May 2024 – Dec 2025
+  points:
+    - Designed custom 6D pose estimation models for industrial forged parts.
+    - Benchmarked and integrated object detectors (DETR, YOLO) with state-of-the-art segmentation models to handle occlusion.
+    - Ran robotic simulation studies in ManiSkill.
+  tags: [6D pose, Detection, Segmentation, Robotics sim]
+
+- role: Member of Technical Staff
+  org: Streamoid Technologies
+  location: Bengaluru, India
+  dates: Aug 2021 – Jun 2023
+  points:
+    - Built fine-grained fashion image classifiers for e-commerce websites.
+    - Developed a virtual model generation pipeline combining skin and cloth segmentation, face swap, GAN-based image translation, garment warping and virtual try-on.
+    - Created a hybrid segmentation model for background replacement, shadow synthesis and high-resolution product images from studio photoshoots.
+  tags: [Fashion AI, GANs, Virtual try-on, Production ML]
+
+- role: Research Assistant
+  org: National Taiwan University of Science and Technology
+  location: Taipei, Taiwan
+  dates: Sep 2019 – Jun 2021
+  points:
+    - Led deep visual computing projects for printed-document imaging, covering halftone classification, watermarking, reconstruction and image quality assessment.
+  tags: [Deep learning, Image quality, Watermarking]
+
+- role: Junior Research Fellow
+  org: Vel Tech University
+  location: Chennai, India
+  dates: Aug 2014 – Jul 2016
+  points:
+    - Developed vision-based navigation and formation control for flapping-wing micro aerial vehicles (Indo–Taiwan project), work later granted an Indian patent.
+    - Built UAV and image-processing systems for structural health monitoring of railway bridges and heritage structures (Indo–Canada project).
+  tags: [UAV vision, Tracking, Structural monitoring]
+
+- role: Project Engineer
+  org: Kalpataru Power Transmission
+  location: India
+  dates: Feb 2010 – Jun 2011
+  points:
+    - Managed field quality and scheduling, and secured approvals from power-line, NHAI and railway authorities.

@@ -1,0 +1,119 @@
+---
+layout: default
+---
+{%- assign pubs = site.data.publications -%}
+{%- assign n_papers = pubs | where_exp: "p", "p.type == 'journal' or p.type == 'conference'" | size -%}
+{%- assign n_journal = pubs | where: "type", "journal" | size -%}
+{%- assign n_patent = pubs | where: "type", "patent" | size -%}
+
+<section class="hero wrap">
+  <div class="hero-text">
+    {% if site.open_to_work != "" %}<p class="badge"><span class="dot"></span>{{ site.open_to_work }}</p>{% endif %}
+    <h1>{{ site.title }}</h1>
+    <p class="headline">{{ site.headline }}</p>
+    <p class="lede">
+      I build vision systems that work outside the lab: 6D pose estimation for industrial robotics,
+      fashion AI and virtual try-on for e-commerce, and deep learning for document imaging.
+      PhD in Electrical Engineering, with experience across research labs in France and Taiwan and an industry team in India.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}Get in touch</a>
+      {% if site.cv_file != "" %}<a class="btn" href="{{ site.cv_file | relative_url }}">{% include icon.html name="download" %}Download CV</a>{% endif %}
+      <a class="btn" href="https://www.linkedin.com/in/{{ site.linkedin }}/">{% include icon.html name="linkedin" %}LinkedIn</a>
+    </div>
+  </div>
+  <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of {{ site.title }}" width="300" height="459">
+</section>
+
+<section class="wrap stats" aria-label="Highlights">
+  <div><b>10+</b><span>years in vision &amp; AI</span></div>
+  <div><b>{{ n_papers }}</b><span>peer-reviewed papers</span></div>
+  <div><b>{{ n_journal }}</b><span>journal articles</span></div>
+  <div><b>{{ n_patent }}</b><span>granted patents</span></div>
+</section>
+
+<section id="skills" class="wrap section">
+  <h2>What I work on</h2>
+  <div class="skills">
+    {% for g in site.data.skills %}
+    <div class="skill-group">
+      <h3>{{ g.group }}</h3>
+      <ul class="chips">{% for s in g.items %}<li>{{ s }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="experience" class="wrap section">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    {% for job in site.data.experience %}
+    <li class="job">
+      <div class="job-head">
+        <div>
+          <h3>{{ job.role }}</h3>
+          <p class="org">{{ job.org }} · {{ job.location }}</p>
+        </div>
+        <p class="dates">{{ job.dates }}</p>
+      </div>
+      <ul class="points">{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+      {% if job.tags %}<ul class="chips small">{% for t in job.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section id="projects" class="wrap section">
+  <h2>Selected projects</h2>
+  <div class="cards">
+    {% for pr in site.data.projects %}
+    <article class="card">
+      <p class="card-ctx">{{ pr.context }}</p>
+      <h3>{{ pr.title }}</h3>
+      <p>{{ pr.text }}</p>
+      <ul class="chips small">{% for t in pr.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+      {% if pr.link %}<a class="card-link" href="{{ pr.link }}">View →</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="publications" class="wrap section">
+  <div class="section-head">
+    <h2>Selected publications</h2>
+    <a href="{{ '/publications/' | relative_url }}">All {{ pubs.size }} →</a>
+  </div>
+  <ol class="pubs">
+    {% assign selected = pubs | where: "selected", true | sort: "year" | reverse %}
+    {% for p in selected %}{% include pub.html p=p %}{% endfor %}
+  </ol>
+</section>
+
+<section id="education" class="wrap section two-col">
+  <div>
+    <h2>Education</h2>
+    <ul class="edu">
+      {% for e in site.data.education %}
+      <li>
+        <div class="job-head"><h3>{{ e.degree }}</h3><p class="dates">{{ e.dates }}</p></div>
+        <p class="org">{{ e.school }} · {{ e.location }}</p>
+        <p class="note">{{ e.note }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>Service &amp; leadership</h2>
+    <h3 class="sub">Peer reviewer</h3>
+    <p class="note">{{ site.data.service.reviewer | join: " · " }}</p>
+    <h3 class="sub">Roles</h3>
+    <ul class="plain">{% for r in site.data.service.roles %}<li>{{ r }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section id="contact" class="wrap section contact">
+  <h2>Let's talk</h2>
+  <p>I'm looking for computer vision and machine learning roles in industry or applied research. The fastest way to reach me is email.</p>
+  <p><a class="btn primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}{{ site.email }}</a></p>
+  {% include links.html %}
+</section>
