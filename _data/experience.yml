@@ -32,6 +32,8 @@
       text: Virtual model generation pipeline combining skin and cloth segmentation, face swap, GAN-based image translation, garment warping and virtual try-on.
     - name: Catalogix (catalogue imaging)
       text: Hybrid segmentation model for background replacement, shadow synthesis and high-resolution product images straight from photoshoots.
+    - name: Research
+      text: Self-supervised learning and salient object detection for fashion imagery.
   tags: [Fashion AI, GANs, Virtual try-on, Segmentation, Production ML]
 
 - role: Research Assistant
@@ -42,13 +44,22 @@
     - Worked on AI for deep visual computing and analysis of printed documents, covering halftone classification, watermarking, reconstruction and image quality assessment.
   tags: [Deep learning, Image quality, Watermarking]
 
+- role: Teaching Assistant
+  org: National Taiwan University of Science and Technology
+  location: Taipei, Taiwan
+  dates: Sep 2016 – Aug 2020
+  points:
+    - Digital Image Processing (2 semesters) and Multimedia Signal Processing (3 semesters).
+
 - role: Junior Research Fellow
   org: Vel Tech University
   location: Chennai, India
   dates: Aug 2014 – Jul 2016
   points:
     - Design, development and vision-based formation control of micro ornithopters (Indo–Taiwan project), work later granted an Indian patent.
+    - High-speed photography processing, image processing for MAV navigation, and on-board avionics and control of flapping-wing vehicles.
     - Full-field, non-contact structural health monitoring for long-span railway bridges and heritage structures (Indo–Canada project).
+    - Taught part-time on the M.Tech Aeronautical Engineering (UAV) programme and organised ornithopter assembly and real-time flying workshops.
   tags: [UAV vision, Tracking, Structural monitoring]
 
 - role: Project Engineer
