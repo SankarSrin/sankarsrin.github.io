@@ -13,7 +13,7 @@ baseurl: ""
 # Shown as a badge in the header. Leave empty to hide it.
 open_to_work: "Open to Computer Vision / ML roles"
 # Drop your CV PDF at this path to show the "Download CV" button. Leave empty to hide.
-cv_file: ""          # e.g. /assets/Sankarasrinivasan_Seshathiri_CV.pdf
+cv_file: "/assets/Sankarasrinivasan_Seshathiri_CV.pdf"
 
 # ── Contact & profiles ────────────────────────────────────────
 email: sankarsrin@gmail.com

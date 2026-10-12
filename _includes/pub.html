@@ -2,10 +2,7 @@
 {%- assign authors = p.authors -%}
 {%- for v in site.author_name_variants -%}{%- capture b -%}<strong>{{ v }}</strong>{%- endcapture -%}{%- assign authors = authors | replace: v, b -%}{%- endfor -%}
 <li class="pub">
-  <span class="pub-year">{{ p.year }}</span>
-  <div>
-    <p class="pub-title">{{ p.title }}</p>
-    <p class="pub-meta">{{ authors }}</p>
-    <p class="pub-venue">{{ p.venue }}</p>
-  </div>
+  <p class="pub-title">{{ p.title }}</p>
+  <p class="pub-meta">{{ authors }}</p>
+  <p class="pub-venue"><span class="pub-year">{{ p.year }}</span><em>{{ p.venue }}</em></p>
 </li>

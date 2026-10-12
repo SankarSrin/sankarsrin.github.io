@@ -1,9 +1,12 @@
-# Add the frameworks and tools you use day to day (e.g. PyTorch, OpenCV, Docker) in "Tools".
-- group: Computer vision
-  items: [6D pose estimation, "Object detection (YOLO, DETR)", Instance & semantic segmentation, Image super-resolution, Image quality assessment, Image retrieval & hashing]
+- group: Languages
+  items: [Python, C++, MATLAB, Java]
+- group: Deep learning & vision
+  items: [PyTorch, TensorFlow, Keras, OpenCV, CUDA & GPU optimisation]
+- group: 3D, simulation & synthetic data
+  items: [BlenderProc, Blender, ManiSkill]
+- group: Engineering tools
+  items: [Git & GitHub, Docker, VS Code]
+- group: Computer vision expertise
+  items: [6D pose estimation, "Object detection (YOLO, DETR)", Segmentation, Image quality assessment, Image retrieval & hashing]
 - group: Generative & learning methods
-  items: [GANs & image-to-image translation, Virtual try-on, Self-supervised & contrastive learning, Few-shot learning, Knowledge distillation & model compression]
-- group: Applied domains
-  items: [Industrial robotics (ManiSkill), E-commerce & fashion imaging, Document & print imaging, UAV navigation, Medical imaging]
-- group: Tools
-  items: [Python]
+  items: [GANs & image translation, Virtual try-on, Self-supervised & contrastive learning, Few-shot learning, Knowledge distillation]

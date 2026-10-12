@@ -1,29 +1,45 @@
+- role: Postdoctoral Researcher
+  org: École Centrale de Lyon
+  location: Lyon, France
+  dates: May 2026 – Present
+  points:
+    - Developing deep learning models that classify polymers from atomic force microscopy (AFM) force–distance curves.
+    - Building software for 3D AFM image visualisation and analysis.
+  tags: [Deep learning, Signal classification, Scientific software]
+
 - role: Postdoctoral Researcher, Project Acrobath
   org: LIRIS (Imagine team), École Centrale de Lyon
   location: Lyon, France
   dates: May 2024 – Dec 2025
-  points:
-    - Designed custom 6D pose estimation models for industrial forged parts.
-    - Benchmarked and integrated object detectors (DETR, YOLO) with state-of-the-art segmentation models to handle occlusion.
-    - Ran robotic simulation studies in ManiSkill.
-  tags: [6D pose, Detection, Segmentation, Robotics sim]
+  projects:
+    - name: 6D pose estimation
+      text: Developed 6D pose models for known industrial forged objects and evaluated the latest pose models for unseen objects.
+    - name: Detection under occlusion
+      text: Built and benchmarked object detectors (DETR, YOLO and others) and integrated segmentation models to keep detection reliable under heavy occlusion.
+    - name: Robotics simulation
+      text: Ran simulation studies in ManiSkill to support the robotic handling use case.
+  tags: [6D pose, DETR, YOLO, Segmentation, ManiSkill]
 
 - role: Member of Technical Staff
   org: Streamoid Technologies
   location: Bengaluru, India
   dates: Aug 2021 – Jun 2023
-  points:
-    - Built fine-grained fashion image classifiers for e-commerce websites.
-    - Developed a virtual model generation pipeline combining skin and cloth segmentation, face swap, GAN-based image translation, garment warping and virtual try-on.
-    - Created a hybrid segmentation model for background replacement, shadow synthesis and high-resolution product images from studio photoshoots.
-  tags: [Fashion AI, GANs, Virtual try-on, Production ML]
+  summary: Built computer vision models for three of Streamoid's AI products for fashion e-commerce.
+  projects:
+    - name: Fine-grained fashion classifiers
+      text: Models that classify subtle clothing attributes such as sleeve length and neck shape on both cropped and full-length high-resolution product images.
+    - name: Photo-Studio (virtual models)
+      text: Virtual model generation pipeline combining skin and cloth segmentation, face swap, GAN-based image translation, garment warping and virtual try-on.
+    - name: Catalogix (catalogue imaging)
+      text: Hybrid segmentation model for background replacement, shadow synthesis and high-resolution product images straight from photoshoots.
+  tags: [Fashion AI, GANs, Virtual try-on, Segmentation, Production ML]
 
 - role: Research Assistant
   org: National Taiwan University of Science and Technology
   location: Taipei, Taiwan
   dates: Sep 2019 – Jun 2021
   points:
-    - Led deep visual computing projects for printed-document imaging, covering halftone classification, watermarking, reconstruction and image quality assessment.
+    - Worked on AI for deep visual computing and analysis of printed documents, covering halftone classification, watermarking, reconstruction and image quality assessment.
   tags: [Deep learning, Image quality, Watermarking]
 
 - role: Junior Research Fellow
@@ -31,8 +47,8 @@
   location: Chennai, India
   dates: Aug 2014 – Jul 2016
   points:
-    - Developed vision-based navigation and formation control for flapping-wing micro aerial vehicles (Indo–Taiwan project), work later granted an Indian patent.
-    - Built UAV and image-processing systems for structural health monitoring of railway bridges and heritage structures (Indo–Canada project).
+    - Design, development and vision-based formation control of micro ornithopters (Indo–Taiwan project), work later granted an Indian patent.
+    - Full-field, non-contact structural health monitoring for long-span railway bridges and heritage structures (Indo–Canada project).
   tags: [UAV vision, Tracking, Structural monitoring]
 
 - role: Project Engineer
@@ -40,4 +56,4 @@
   location: India
   dates: Feb 2010 – Jun 2011
   points:
-    - Managed field quality and scheduling, and secured approvals from power-line, NHAI and railway authorities.
+    - Managed field quality, project planning and scheduling, and secured crossing approvals from power-line, NHAI and railway authorities.

@@ -1,16 +1,16 @@
 - title: 6D pose for industrial parts
   context: Postdoc · École Centrale de Lyon
-  text: Custom pose estimation for industrial forged parts, with detection and segmentation stages to handle occlusion, plus simulation studies in ManiSkill.
+  text: Pose estimation for known and unseen industrial forged parts, with detection and segmentation stages to handle heavy occlusion, plus simulation studies in ManiSkill.
   tags: [6D pose, DETR, YOLO, ManiSkill]
-- title: Virtual model & try-on pipeline
+- title: Fashion AI product suite
   context: Industry · Streamoid
-  text: End-to-end pipeline that turns garment photos into on-model images using segmentation, face swap, GAN translation, warping and virtual try-on.
-  tags: [GANs, Try-on, Segmentation]
+  text: Fine-grained attribute classifiers, the Photo-Studio virtual model and try-on pipeline, and Catalogix catalogue imaging for e-commerce brands.
+  tags: [Classification, GANs, Try-on, Segmentation]
+- title: Polymer classification from AFM data
+  context: Postdoc · École Centrale de Lyon
+  text: Deep learning on AFM force–distance curves to identify polymers, with software for 3D AFM image visualisation and analysis.
+  tags: [Deep learning, Scientific data]
 - title: Halftone imaging with deep learning
   context: PhD · NTUST
   text: Stochastic and deep models for halftone classification, watermarking and reconstruction, published in IEEE TCSVT, IEEE TCE and ICIP.
   tags: [CNNs, GANs, Self-supervised]
-- title: Vision-guided micro aerial vehicles
-  context: Research · Vel Tech
-  text: Tracking and control of flapping-wing MAVs and UAV-based inspection of civil structures. Two granted Indian patents.
-  tags: [Tracking, UAV, Patents]

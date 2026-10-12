@@ -13,11 +13,14 @@ layout: default
     <h1>{{ site.title }}</h1>
     <p class="headline">{{ site.headline }}</p>
     <p class="lede">
-      I work at the intersection of computer vision research and real-world applications, turning research ideas into practical solutions. My work spans 6D pose estimation for industrial robotics, fashion e-commerce, UAVs, printing technologies, and polymer classification. With a PhD in Electrical Engineering and experience across research labs in France and Taiwan and an industry team in India, I bring both research depth and hands-on industry experience.
+      I build vision systems that work outside the lab: 6D pose estimation for industrial robotics,
+      fashion AI and virtual try-on for e-commerce, and deep learning for scientific and document imaging.
+      PhD in Electrical Engineering, currently a postdoctoral researcher at École Centrale de Lyon, with earlier
+      roles in research labs in Taiwan and an industry team in India.
     </p>
     <div class="cta">
-      <a class="btn primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}Get in touch</a>
-      {% if site.cv_file != "" %}<a class="btn" href="{{ site.cv_file | relative_url }}">{% include icon.html name="download" %}Download CV</a>{% endif %}
+      {% if site.cv_file != "" %}<a class="btn primary" href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="download" %}View my CV</a>{% endif %}
+      <a class="btn" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}Email</a>
       <a class="btn" href="https://www.linkedin.com/in/{{ site.linkedin }}/">{% include icon.html name="linkedin" %}LinkedIn</a>
     </div>
   </div>
@@ -55,7 +58,9 @@ layout: default
         </div>
         <p class="dates">{{ job.dates }}</p>
       </div>
-      <ul class="points">{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+      {% if job.summary %}<p class="summary">{{ job.summary }}</p>{% endif %}
+      {% if job.points %}<ul class="points">{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
+      {% if job.projects %}<ul class="subprojects">{% for sp in job.projects %}<li><b>{{ sp.name }}</b><span>{{ sp.text }}</span></li>{% endfor %}</ul>{% endif %}
       {% if job.tags %}<ul class="chips small">{% for t in job.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
     </li>
     {% endfor %}
@@ -102,7 +107,9 @@ layout: default
     </ul>
   </div>
   <div>
-    <h2>Service &amp; leadership</h2>
+    <h2>Awards</h2>
+    <ul class="awards">{% for a in site.data.awards %}<li><span class="yr">{{ a.year }}</span><span>{{ a.text }}</span></li>{% endfor %}</ul>
+    <h2 style="margin-top:32px">Service &amp; leadership</h2>
     <h3 class="sub">Peer reviewer</h3>
     <p class="note">{{ site.data.service.reviewer | join: " · " }}</p>
     <h3 class="sub">Roles</h3>
@@ -113,6 +120,6 @@ layout: default
 <section id="contact" class="wrap section contact">
   <h2>Let's talk</h2>
   <p>I'm looking for computer vision and machine learning roles in industry or applied research. The fastest way to reach me is email.</p>
-  <p><a class="btn primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}{{ site.email }}</a></p>
+  <p class="cta" style="justify-content:center">{% if site.cv_file != "" %}<a class="btn" href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="download" %}View CV</a>{% endif %}<a class="btn primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}{{ site.email }}</a></p>
   {% include links.html %}
 </section>
