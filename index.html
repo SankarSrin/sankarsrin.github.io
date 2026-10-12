@@ -2,8 +2,9 @@
 layout: default
 ---
 {%- assign pubs = site.data.publications -%}
-{%- assign n_papers = pubs | where_exp: "p", "p.type == 'journal' or p.type == 'conference'" | size -%}
 {%- assign n_journal = pubs | where: "type", "journal" | size -%}
+{%- assign n_conf = pubs | where: "type", "conference" | size -%}
+{%- assign n_papers = n_journal | plus: n_conf -%}
 {%- assign n_patent = pubs | where: "type", "patent" | size -%}
 
 <section class="hero wrap">
