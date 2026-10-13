@@ -7,7 +7,10 @@ description: Journal articles, conference papers and patents by Sankarasrinivasa
 {%- assign pubs = site.data.publications | sort: "year" | reverse -%}
 <section class="wrap section">
   <h1 class="page-title">Publications</h1>
-  <p class="lede">Full list below. Citation counts and PDFs are on <a href="https://scholar.google.com/citations?user={{ site.scholar }}">Google Scholar</a>.</p>
+  <div class="profile-links">
+    <a class="btn primary" href="https://scholar.google.com/citations?user={{ site.scholar }}" target="_blank" rel="noopener">{% include icon.html name="scholar" %}Google Scholar</a>
+    <a class="btn" href="https://www.researchgate.net/profile/{{ site.researchgate }}" target="_blank" rel="noopener">{% include icon.html name="researchgate" %}ResearchGate</a>
+  </div>
   {% assign groups = "journal:Journal articles,conference:Conference papers,patent:Patents,thesis:Thesis" | split: "," %}
   {% for g in groups %}
     {% assign kv = g | split: ":" %}

@@ -13,19 +13,20 @@ layout: default
     <h1>{{ site.title }}</h1>
     <p class="headline">{{ site.headline }}</p>
     <p class="lede">
-     Computer vision researcher and engineer with 10+ years across academia and industry in France, Taiwan, Canada and India. I build vision systems for industrial robotics (6D pose), e-commerce (deployed fashion AI), drones and micro-ornithopters, digital halftoning, polymer classification and so on. 30+ peer-reviewed papers (IEEE TCSVT, TCE, ICIP), 2 granted patents, and reviewer for international journals and conferences including IEEE TIP, TCSVT, IJCV and ICIP.
+      Computer vision researcher and engineer with 10+ years across academia and industry in France, Taiwan and India. I build vision systems for industrial robotics (6D pose), e-commerce (deployed fashion AI), drones and micro-ornithopters, digital halftoning, polymer classification and so on. 30+ peer-reviewed papers (IEEE TCSVT, TCE, ICIP), 2 granted patents, and reviewer for international journals and conferences including IEEE TIP, TCSVT, IJCV and ICIP.
     </p>
     <div class="cta">
       {% if site.cv_file != "" %}<a class="btn primary" href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="download" %}View my CV</a>{% endif %}
       <a class="btn" href="mailto:{{ site.email }}">{% include icon.html name="mail" %}Email</a>
       <a class="btn" href="https://www.linkedin.com/in/{{ site.linkedin }}/">{% include icon.html name="linkedin" %}LinkedIn</a>
+      <a class="btn" href="https://github.com/{{ site.github }}">{% include icon.html name="github" %}GitHub</a>
     </div>
   </div>
   <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of {{ site.title }}" width="300" height="459">
 </section>
 
 <section class="wrap stats" aria-label="Highlights">
-  <div><b>10+</b><span>years in vision &amp; AI</span></div>
+  <div><b>10+</b><span>years in computer vision</span></div>
   <div><b>{{ n_papers }}</b><span>peer-reviewed papers</span></div>
   <div><b>{{ n_journal }}</b><span>journal articles</span></div>
   <div><b>{{ n_patent }}</b><span>granted patents</span></div>
@@ -56,7 +57,7 @@ layout: default
         <p class="dates">{{ job.dates }}</p>
       </div>
       {% if job.summary %}<p class="summary">{{ job.summary }}</p>{% endif %}
-      {% if job.points %}<ul class="points">{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
+      {% if job.points %}<ul class="subprojects">{% for pt in job.points %}<li><span>{{ pt }}</span></li>{% endfor %}</ul>{% endif %}
       {% if job.projects %}<ul class="subprojects">{% for sp in job.projects %}<li><b>{{ sp.name }}</b><span>{{ sp.text }}</span></li>{% endfor %}</ul>{% endif %}
       {% if job.tags %}<ul class="chips small">{% for t in job.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
     </li>
@@ -107,10 +108,16 @@ layout: default
     <h2>Awards</h2>
     <ul class="awards">{% for a in site.data.awards %}<li><span class="yr">{{ a.year }}</span><span>{{ a.text }}</span></li>{% endfor %}</ul>
     <h2 style="margin-top:32px">Service &amp; leadership</h2>
-    <h3 class="sub">Peer reviewer</h3>
-    <p class="note">{{ site.data.service.reviewer | join: " · " }}</p>
-    <h3 class="sub">Roles</h3>
-    <ul class="plain">{% for r in site.data.service.roles %}<li>{{ r }}</li>{% endfor %}</ul>
+    <div class="service-cols">
+      <div>
+        <h3 class="sub">Peer reviewer</h3>
+        <ul class="plain">{% for r in site.data.service.reviewer %}<li>{{ r }}</li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h3 class="sub">Roles</h3>
+        <ul class="plain">{% for r in site.data.service.roles %}<li>{{ r }}</li>{% endfor %}</ul>
+      </div>
+    </div>
   </div>
 </section>
 

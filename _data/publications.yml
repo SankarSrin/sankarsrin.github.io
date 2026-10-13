@@ -33,7 +33,7 @@
   authors: "Guo, J.-M., Yang, J.-S., Sankarasrinivasan, S., Wu, H.-W."
   title: "A Light-Weight CNN for Object Detection with Sparse Model and Knowledge Distillation"
   venue: "Electronics, 11(4), 575"
-  selected: true
+
 - type: journal
   year: 2022
   authors: "Guo, J.-M., Sankarasrinivasan, S., Chen, W.-H."

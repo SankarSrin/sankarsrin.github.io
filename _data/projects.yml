@@ -8,9 +8,9 @@
   tags: [Classification, GANs, Try-on, Segmentation]
 - title: Polymer classification from AFM data
   context: Postdoc · École Centrale de Lyon
-  text: Deep learning on AFM force–distance curves to identify polymers, with software for 3D AFM image visualisation and analysis.
-  tags: [Deep learning, Scientific data]
+  text: Deep learning on AFM force–distance curves to identify polymers, using variational autoencoders and clustering, with software for 3D AFM image visualisation and analysis.
+  tags: [Deep learning, Variational autoencoder (VAE), Clustering, 3D visualisation]
 - title: Halftone imaging with deep learning
   context: PhD · NTUST
-  text: Stochastic and deep models for halftone classification, watermarking and reconstruction, published in IEEE TCSVT, IEEE TCE and ICIP.
-  tags: [CNNs, GANs, Self-supervised]
+  text: Stochastic analysis and deep learning for halftone classification, watermarking and high-resolution reconstruction, published in IEEE TCSVT, IEEE TCE and ICIP.
+  tags: [CNNs, GANs, Self-supervised, Watermarking, Stochastic analysis, HR reconstruction]
