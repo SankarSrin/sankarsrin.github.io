@@ -107,16 +107,20 @@ layout: default
   <div>
     <h2>Awards</h2>
     <ul class="awards">{% for a in site.data.awards %}<li><span class="yr">{{ a.year }}</span><span>{{ a.text }}</span></li>{% endfor %}</ul>
-    <h2 style="margin-top:32px">Service &amp; leadership</h2>
-    <div class="service-cols">
-      <div>
-        <h3 class="sub">Peer reviewer</h3>
-        <ul class="plain">{% for r in site.data.service.reviewer %}<li>{{ r }}</li>{% endfor %}</ul>
-      </div>
-      <div>
-        <h3 class="sub">Roles</h3>
-        <ul class="plain">{% for r in site.data.service.roles %}<li>{{ r }}</li>{% endfor %}</ul>
-      </div>
+    </div>
+  </div>
+</section>
+
+<section id="service" class="wrap section">
+  <h2>Service &amp; leadership</h2>
+  <div class="service-cols">
+    <div>
+      <h3 class="sub">Peer reviewer</h3>
+      <ul class="svc-list two">{% for r in site.data.service.reviewer %}<li>{{ r }}</li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h3 class="sub">Roles</h3>
+      <ul class="svc-list">{% for r in site.data.service.roles %}<li>{{ r }}</li>{% endfor %}</ul>
     </div>
   </div>
 </section>
